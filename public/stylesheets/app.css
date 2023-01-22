@@ -1,0 +1,91 @@
+:root {
+  --logogreen: #729344;
+  --olivegreen: #546730;
+  --green: #4a9344;
+  --lightbrown: #939044;
+  --darkbrown: #676530;
+  --red: #ca1551;
+  --white: #fff;
+  --black: #000;
+}
+
+a {
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--olivegreen);
+}
+
+#cluster-map {
+  width: 100%;
+  height: 500px;
+}
+
+#map {
+  width: 100%;
+  height: 300px;
+}
+
+.btn-primary,
+.btn-info,
+.btn-success {
+  color: var(--white);
+  background-color: var(--green);
+  border-color: var(--green);
+  border-radius: 0 !important;
+  width: 250px;
+}
+
+.btn-info-edit {
+  color: var(--white);
+  background-color: var(--green);
+  border-color: var(--green);
+  border-radius: 0 !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--logogreen);
+  border-color: var(--logogreen);
+}
+
+.btn-info:hover {
+  background-color: var(--logogreen);
+  border-color: var(--logogreen);
+}
+
+.btn-success:hover {
+  background-color: var(--logogreen);
+  border-color: var(--logogreen);
+}
+
+.btn-danger {
+  color: var(--white);
+  background-color: var(--red);
+  border-color: var(--red);
+  border-radius: 0 !important;
+}
+
+.btn-block {
+  display: block;
+  width: 100% !important;
+}
+
+.card {
+  box-shadow: 0 10px 25px -10px rgb(0 0 0 / 16%);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+.mapboxgl-map {
+  box-shadow: 0 10px 25px -10px rgb(0 0 0 / 16%);
+  overflow: hidden;
+  min-height: 22rem;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+.nav-container {
+  max-width: 70vw;
+}
